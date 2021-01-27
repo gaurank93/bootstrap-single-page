@@ -46,4 +46,15 @@ input {
   .round-button{
     margin-top: 20px;
   }
+  .padding-b{
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .work-image {
+    display: none;
+  }
+  .font-size{
+    font-size: 2.5rem;
+  }
 }
