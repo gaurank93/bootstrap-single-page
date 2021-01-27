@@ -40,6 +40,21 @@ input {
   background-color: #eef4f4; 
   margin-top: 150px
 }
+.bg-button-dark{
+  background-color: #81cac8
+}
+.card-bg-light{
+  background-color: #fbf6f2
+}
+.card-bg-dark{
+  background-color: #f0f7fd
+}
+.card-bg-silver{
+  background-color: #eef4f4
+}
+.card-bg-white{
+  background-color: #fcfafe
+}
 @media screen and (max-width: 600px) {
   .work-image {
     display: none;
