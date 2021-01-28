@@ -1,6 +1,12 @@
+@font-face {
+  font-family: roboto;
+  src: url('../font/Roboto-Regular.ttf');
+}
+
 h1,
 h2 {
   color: #1d1f7c;
+  font-family: roboto;
 }
 .buttonIn {
   width: 300px;
