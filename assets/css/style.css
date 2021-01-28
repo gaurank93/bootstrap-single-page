@@ -23,7 +23,7 @@ input {
 .round-button {
   border-radius: 20px;
   border: 1px solid #81cac8;
-  padding: 5px 40px;
+  padding: 5px 30px;
 }
 .card {
   border: none;
@@ -61,6 +61,15 @@ input {
 .card-bg-white{
   background-color: #fcfafe
 }
+.custom-file-label::after {
+  content: url('../img/attach-outline.svg');
+}
+
+.round-button:hover {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+
 @media screen and (max-width: 600px) {
   .work-image {
     display: none;
@@ -80,6 +89,9 @@ input {
   .work-proccess{
     background-color: #eef4f4; 
     margin-top: 0px
+  }
+  .mobile-margin{
+    margin: 0px !important;
   }
 }
 @media screen and (max-width: 900px) {
